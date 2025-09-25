@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Andrés - Paraíso Caribeño</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1>San Andrés</h1>
+            <p class="subtitle">El Paraíso del Caribe Colombiano</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Introducción -->
+        <section class="introduccion">
+            <h2>Descubre San Andrés</h2>
+            <p>
+                San Andrés, la perla del Caribe colombiano, te espera con sus aguas cristalinas de siete colores, 
+                playas de arena blanca y una cultura vibrante que fusiona tradiciones caribeñas, africanas y europeas. 
+                Esta isla paradisíaca te invita a explorar su rica gastronomía con sabores únicos como el rondón, 
+                el cangrejo negro y la pasta de coco, mientras disfrutas del ritmo contagioso del calipso, reggae y 
+                soca que llena cada rincón. Desde el famoso Johnny Cay hasta la mística Cueva de Morgan, 
+                San Andrés ofrece aventuras inolvidables tanto en tierra como en el mar más azul del mundo. 
+                ¡Ven y déjate cautivar por la magia isleña que te hará vivir momentos únicos en este rincón del paraíso!
+            </p>
+        </section>
+
+        <!-- Galería de Imágenes -->
+        <section class="galeria">
+            <h2>Galería de Imágenes</h2>
+            <div class="galeria-grid">
+                <div class="galeria-item">
+                    <img src="images/playa-san-andres.jpg" alt="Playa de San Andrés">
+                    <div class="overlay">
+                        <h3>Playas Paradisíacas</h3>
+                    </div>
+                </div>
+                <div class="galeria-item">
+                    <img src="images/mar-siete-colores.jpg" alt="Mar de los Siete Colores">
+                    <div class="overlay">
+                        <h3>Mar de Siete Colores</h3>
+                    </div>
+                </div>
+                <div class="galeria-item">
+                    <img src="images/cultura-islena.jpg" alt="Cultura Isleña">
+                    <div class="overlay">
+                        <h3>Cultura Isleña</h3>
+                    </div>
+                </div>
+                <div class="galeria-item">
+                    <img src="images/gastronomia.jpg" alt="Gastronomía Local">
+                    <div class="overlay">
+                        <h3>Gastronomía Local</h3>
+                    </div>
+                </div>
+                <div class="galeria-item">
+                    <img src="images/musica-caribe.jpg" alt="Música del Caribe">
+                    <div class="overlay">
+                        <h3>Música del Caribe</h3>
+                    </div>
+                </div>
+                <div class="galeria-item">
+                    <img src="images/johnny-cay.jpg" alt="Johnny Cay">
+                    <div class="overlay">
+                        <h3>Johnny Cay</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Comentarios -->
+        <section class="comentarios-section">
+            <h2>Comparte tu Experiencia</h2>
+            
+            <!-- Formulario -->
+            <form id="comentarioForm" class="comentario-form">
+                <div class="form-group">
+                    <label for="nombre">Tu Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="comentario">Tu Comentario:</label>
+                    <textarea id="comentario" name="comentario" rows="4" required 
+                              placeholder="Cuéntanos sobre tu experiencia en San Andrés..."></textarea>
+                </div>
+                <button type="submit">Enviar Comentario</button>
+            </form>
+
+            <!-- Lista de Comentarios -->
+            <div class="comentarios-lista">
+                <h3>Comentarios de Visitantes</h3>
+                <div id="listaComentarios">
+                    <!-- Los comentarios se cargarán dinámicamente aquí -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 San Andrés - Paraíso Caribeño. Descubre la magia del Caribe colombiano.</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "san-andres-website",
+  "version": "1.0.0",
+  "description": "Aplicación web sobre la isla de San Andrés, Colombia",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "keywords": ["san-andres", "colombia", "turismo", "web"],
+  "author": "",
+  "license": "MIT"
+}

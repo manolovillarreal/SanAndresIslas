@@ -1,0 +1,9 @@
+- [x] Verify that the copilot-instructions.md file in the .github directory is created.
+- [x] Clarify Project Requirements - Aplicación web sobre San Andrés con Node.js/Express
+- [x] Scaffold the Project - Estructura completa creada con HTML, CSS, JS y servidor
+- [x] Customize the Project - Tema caribeño implementado con funcionalidad completa
+- [ ] Install Required Extensions
+- [ ] Compile the Project
+- [ ] Create and Run Task
+- [ ] Launch the Project
+- [ ] Ensure Documentation is Complete
